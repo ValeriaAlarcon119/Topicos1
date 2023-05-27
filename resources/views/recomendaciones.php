@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  <style>
+<style>
     .fancy-title {
         text-align: center;
     }
@@ -22,9 +22,9 @@
 
 <style>
   .column-image {
-    width: 200px; /* Establece el ancho deseado */
-    height: 200px; /* Establece la altura deseada */
-    object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
+    width: 200px; 
+    height: 200px;
+    object-fit: cover; 
   }
 </style>
 
@@ -64,33 +64,42 @@
 
 
 <table class="table caption-top">
-  <caption>MANGA</caption>
+  <caption>RECOMENDACIONES</caption>
   <thead>
     <tr>
-    
-      <th scope="col">NOMBRE</th>
-      <th scope="col">PRECIO</th>
-      <th scope="col">DISPONIBILIDAD</th>
+    <th scope="col">NOMBRE</th>
+    <th scope="col">TEMPORADA</th>
+    <th scope="col">EPISODIOS</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row"> Kimetsu no Yaiba</th>
-      <td>$55.000</td>
-      <td>SI</td>
-      <td></td>
+      <th scope="row"> Bocchi the Rock! (2022)</th>
+      <td>1</td>
+      <td>12</td>
+      
     </tr>
     <tr>
-      <th scope="row">Black Clover</th>
-      <td>70.000</td>
-      <td>SI</td>
-      <td></td>
+      <th scope="row">Ousama Ranking (2022)</th>
+      <td>1</td>
+      <td>23</td>
     </tr>
     <tr>
-      <th scope="row">Tokyo Ghoul</th>
-      <td>35.000</td>
-      <td>NO</td>
-      <td></td>
+      <th scope="row">Heike Monogatari (2022)</th>
+      <td>1</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th scope="row">Lycoris Recoil (2022)</th>
+      <td>1</td>
+    
+      <td>13</td>
+    </tr>
+    <tr>
+      <th scope="row">Yofukashi no Uta (2022)</th>
+      <td>1</td>
+    
+      <td>13</td>
     </tr>
   </tbody>
 </table>

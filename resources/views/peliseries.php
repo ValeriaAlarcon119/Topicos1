@@ -9,7 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  <style>
+
+<style>
     .fancy-title {
         text-align: center;
     }
@@ -22,9 +23,9 @@
 
 <style>
   .column-image {
-    width: 200px; /* Establece el ancho deseado */
-    height: 200px; /* Establece la altura deseada */
-    object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
+    width: 200px; 
+    height: 200px;
+    object-fit: cover; 
   }
 </style>
 
@@ -64,32 +65,41 @@
 
 
 <table class="table caption-top">
-  <caption>MANGA</caption>
+  <caption>PELICULAS Y SERIES</caption>
   <thead>
     <tr>
-    
-      <th scope="col">NOMBRE</th>
-      <th scope="col">PRECIO</th>
-      <th scope="col">DISPONIBILIDAD</th>
+    <th scope="col">NOMBRE</th>
+      <th scope="col">REPARTO</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row"> Kimetsu no Yaiba</th>
-      <td>$55.000</td>
-      <td>SI</td>
+      <th scope="row"> Dragon Ball Super</th>
+      <td>Masako Nozawa, Ryō Horikawa, Kōichi Yamadera, Masakazu Morita, Masako Nozawa, Toshio Furukawa, Ryūsei Nakao...</td>
+      <td></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">Chainsaw Man</th>
+      <td>Kikunosuke Toya, Tomori Kusunoki, Shogo Sakata, Fairouz Ai, Shiori Izawa, Mariya Ise, Karin Takahashi, Taku Yashiro./td>
       <td></td>
     </tr>
     <tr>
-      <th scope="row">Black Clover</th>
-      <td>70.000</td>
-      <td>SI</td>
+      <th scope="row">My Dress-Up Darling</th>
+      <td>Hina Suguta, Atsumi Tanezaki, Shōya Ishige, Hina Yōmiya, Atsushi Ono, Akira Sekine</td>
+    
       <td></td>
     </tr>
     <tr>
-      <th scope="row">Tokyo Ghoul</th>
-      <td>35.000</td>
-      <td>NO</td>
+      <th scope="row">Spy x Family</th>
+      <td>Takuya Eguchi, Saori Hayami, Atsumi Tanezaki, Natalie Van Sistine, Megan Shipman, Alex Organ</td>
+    
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">Shaman King</th>
+      <td>Yūko Satō, Katsuyuki Konishi, Mitsuki Saiga, Inuko Inuyama, Megumi Hayashibara</td>
+    
       <td></td>
     </tr>
   </tbody>

@@ -109,3 +109,15 @@ Route::get('/principal', function(){
 Route::get('/manga', function(){
     return view('manga');
     });
+
+Route::get('/peliseries', function(){
+    return view('peliseries');
+    });
+
+Route::get('/juegos', function(){
+    return view('juegos');
+    });
+
+Route::get('/recomendaciones', function(){
+    return view('recomendaciones');
+    });

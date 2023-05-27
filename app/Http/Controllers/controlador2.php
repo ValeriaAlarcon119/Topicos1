@@ -12,3 +12,27 @@ class Inicio extends Controller
         return view('manga');
     }
 }
+
+class Inicio extends Controller
+{
+    
+    public function index(){
+        return view('peliseries');
+    }
+}
+
+class Inicio extends Controller
+{
+    
+    public function index(){
+        return view('juegos');
+    }
+}
+
+class Inicio extends Controller
+{
+    
+    public function index(){
+        return view('recomendaciones');
+    }
+}

@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  <style>
+<style>
     .fancy-title {
         text-align: center;
     }
@@ -22,9 +22,9 @@
 
 <style>
   .column-image {
-    width: 200px; /* Establece el ancho deseado */
-    height: 200px; /* Establece la altura deseada */
-    object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
+    width: 200px; 
+    height: 200px;
+    object-fit: cover; 
   }
 </style>
 
@@ -64,33 +64,41 @@
 
 
 <table class="table caption-top">
-  <caption>MANGA</caption>
+  <caption>JUEGOS</caption>
   <thead>
     <tr>
-    
-      <th scope="col">NOMBRE</th>
-      <th scope="col">PRECIO</th>
-      <th scope="col">DISPONIBILIDAD</th>
+    <th scope="col">NOMBRE</th>
+    <th scope="col">GENERO</th>
+    <th scope="col">PLATAFORMAS</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row"> Kimetsu no Yaiba</th>
-      <td>$55.000</td>
-      <td>SI</td>
-      <td></td>
+      <th scope="row"> Genshin Impact</th>
+      <td>RPG de acción</td>
+      <td>PC, PlayStation 4, Android e iOS. Próximamente en PlayStation 5 y Nintendo Switch.</td>
+      
     </tr>
     <tr>
-      <th scope="row">Black Clover</th>
-      <td>70.000</td>
-      <td>SI</td>
-      <td></td>
+      <th scope="row">Dragon Ball Legends</th>
+      <td>Lucha, RPG</td>
+      <td>Android e iOS</td>
     </tr>
     <tr>
-      <th scope="row">Tokyo Ghoul</th>
-      <td>35.000</td>
-      <td>NO</td>
-      <td></td>
+      <th scope="row">One Piece: Pirate Warriors 4</th>
+      <td>Acción, aventura, beat'em up</td>
+      <td>PlayStation 4, PC, Nintendo Switch y Xbox One</td>
+    </tr>
+    <tr>
+      <th scope="row">Naruto Shippuden: Ultimate Ninja Storm 4</th>
+      <td>Lucha</td>
+      <td>PlayStation 4, Xbox One, PC y Nintendo Switch</td>
+    </tr>
+    <tr>
+      <th scope="row">Persona 5 Royal</th>
+      <td>RPG, simulación social</td>
+
+      <td>PlayStation4</td>
     </tr>
   </tbody>
 </table>
