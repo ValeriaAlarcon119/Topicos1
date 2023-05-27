@@ -68,17 +68,13 @@
       <td></td>
     </tr>
     <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
+      <th scope="row">Tokyo Ghoul</th>
+      <td>35.000</td>
+      <td>NO</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-
-
-
 
 
 </html>
