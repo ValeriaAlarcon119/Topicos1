@@ -96,4 +96,37 @@
 </table>
 
 
+
+
+<div class="center-div">
+  <div class="dropdown" data-bs-theme="light" style="text-align: center;">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonLight" data-bs-toggle="dropdown" aria-expanded="false">
+      Seleccina para comprar
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonLight">
+      <li><a class="dropdown-item active" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </div>
+  
+  <div class="center-div">
+  <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic checkbox toggle button group">
+    <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+    <label class="btn btn-outline-primary" for="btncheck1">Resumen de tu compra</label>
+
+    <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+    <label class="btn btn-outline-primary" for="btncheck2">Realizar otra compra</label>
+
+    <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+    <label class="btn btn-outline-primary" for="btncheck3">Salir</label>
+  </div>
+</div>
+
+
+
+
 </html>
