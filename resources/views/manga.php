@@ -13,11 +13,25 @@
     .fancy-title {
         text-align: center;
     }
+    .title-radius{
+      border-radius: 20px;
+      background-color: purple;
+      width: 500px;
+      height: 55px;
+      margin-left: 420px;
+      margin-top: 10px;
+      margin-bottom: 10px
+    }
+    .letter-title{
+      color: white;
+    }
 </style>
 </head>
 <body>
 
-<h1 class="fancy-title">Página de Anime</h1>
+<div class="title-radius">
+  <h1 class="fancy-title letter-title">Página de Anime</h1>
+</div>
 
 
 <style>
@@ -60,11 +74,26 @@
     color: purple; 
     font-size: 40px; 
   }
+
+  .subtitle-radius{
+      border-radius: 20px;
+      background-color: purple;
+      width: 400px;
+      height: 50px;
+      margin-left: 470px;
+      margin-top: 10px;
+      margin-bottom: 10px
+    }
+    .letter-subtitle{
+      color: white;
+      padding-top: 4px
+    }
 </style>
 
-
-<table class="table caption-top">
-  <caption>MANGA</caption>
+<div class="subtitle-radius">
+  <h2 class="fancy-title letter-subtitle">MANGA</h2>
+</div>
+<table class="table caption-top table-info">
   <thead>
     <tr>
     
