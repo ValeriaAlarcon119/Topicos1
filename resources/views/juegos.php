@@ -9,22 +9,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<style>
+
+
+    <style>
     .fancy-title {
         text-align: center;
+    }
+    .title-radius{
+      border-radius: 20px;
+      background-color: purple;
+      width: 500px;
+      height: 55px;
+      margin-left: 420px;
+      margin-top: 10px;
+      margin-bottom: 10px
+    }
+    .letter-title{
+      color: white;
     }
 </style>
 </head>
 <body>
 
-<h1 class="fancy-title">Página de Anime</h1>
+<div class="title-radius">
+  <h1 class="fancy-title letter-title">Página de Anime</h1>
+</div>
 
 
 <style>
   .column-image {
-    width: 200px; 
-    height: 200px;
-    object-fit: cover; 
+    width: 200px; /* Establece el ancho deseado */
+    height: 200px; /* Establece la altura deseada */
+    object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
   }
 </style>
 
@@ -60,9 +76,26 @@
     color: purple; 
     font-size: 40px; 
   }
+
+  .subtitle-radius{
+      border-radius: 20px;
+      background-color: purple;
+      width: 400px;
+      height: 50px;
+      margin-left: 470px;
+      margin-top: 10px;
+      margin-bottom: 10px
+    }
+    .letter-subtitle{
+      color: white;
+      padding-top: 4px
+    }
 </style>
 
 
+<div class="subtitle-radius">
+  <h2 class="fancy-title letter-subtitle">JUEGOS</h2>
+</div>
 <table class="table caption-top">
   <caption>JUEGOS</caption>
   <thead>

@@ -12,7 +12,29 @@
 </head>
 <body>
 
-<h1 class="fancy-title">Página de Anime</h1>
+<style>
+    .fancy-title {
+        text-align: center;
+    }
+    .title-radius{
+      border-radius: 20px;
+      background-color: purple;
+      width: 500px;
+      height: 55px;
+      margin-left: 420px;
+      margin-top: 10px;
+      margin-bottom: 10px
+    }
+    .letter-title{
+      color: white;
+    }
+</style>
+</head>
+<body>
+
+<div class="title-radius">
+  <h1 class="fancy-title letter-title">Página de Anime</h1>
+</div>
 
 
 <style>
