@@ -22,9 +22,9 @@
 
 <style>
   .column-image {
-    width: 200px; /* Establece el ancho deseado */
-    height: 200px; /* Establece la altura deseada */
-    object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
   }
 </style>
 
