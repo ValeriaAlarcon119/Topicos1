@@ -12,57 +12,79 @@
 
     <style>
     .fancy-title {
-        text-align: center;
+      text-align: center;
     }
-    .title-radius{
+
+    .title-radius {
       border-radius: 20px;
       background-color: purple;
       width: 500px;
       height: 55px;
       margin-left: 420px;
-      margin-top: 10px;
+      margin-top: 30px;
       margin-bottom: 10px
     }
-    .letter-title{
+
+    .letter-title {
       color: white;
     }
-</style>
+
+    .body-personal {
+      background-color: rgb(18, 19, 34, 0.9)
+    }
+  </style>
 </head>
-<body>
+<body class="body-personal">
 
 <div class="title-radius">
-  <h1 class="fancy-title letter-title">Página de Anime</h1>
-</div>
+    <h1 class="fancy-title letter-title">Página de Anime</h1>
+  </div>
 
 
-<style>
-  .column-image {
-    width: 200px; /* Establece el ancho deseado */
-    height: 200px; /* Establece la altura deseada */
-    object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
-  }
-</style>
+  <style>
+    .column-image {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
 
-<div class="container text-center">
-  <div class="row align-items-start">
-    <div class="col border">
-      <h3 class="text-primary">Manga</h3>
-      <img src="https://i.pinimg.com/736x/f6/ad/7c/f6ad7c004fe049735c9e4c9a09d0ca3a--sketches-manga.jpg" alt="Manga" class="img-fluid column-image">
-    </div>
-    <div class="col border">
-      <h3 class="text-primary">Películas/Series</h3>
-      <img src="https://th.bing.com/th/id/R.feab7bd6bb91f85ae98460bcd6ec4d5b?rik=DM2EaLYd3uGswA&riu=http%3a%2f%2fwww.sfondilandia.it%2f1600%2fEvangelion00.jpg&ehk=HL5vE9zf5dK3ZLeUlrfEVuJi9bjPcaX3NNFgBNNezRM%3d&risl=&pid=ImgRaw&r=0" alt="Películas/Series" class="img-fluid column-image">
-    </div>
-    <div class="col border">
-      <h3 class="text-primary">Juegos</h3>
-      <img src="https://th.bing.com/th/id/R.761d7edde9159cb9864ee29bfd50887e?rik=7kkzNau9etSYdg&pid=ImgRaw&r=0" alt="Juegos" class="img-fluid column-image">
-    </div>
-    <div class="col border">
-      <h3 class="text-primary">Recomendaciones</h3>
-      <img src="https://th.bing.com/th/id/OIP.mRBLVVGb5TGP1-gDJ8e1ggHaF7?pid=ImgDet&rs=1" alt="Recomendaciones" class="img-fluid column-image">
+    .img-radius {
+      border: solid;
+      border-color: white;
+      border-radius: 30px
+    }
+
+    .personal-container {
+      margin-top: 30px;
+      margin-bottom: 50px
+    }
+  </style>
+
+  <div class="container text-center personal-container">
+    <div class="row align-items-start">
+      <div class="col ">
+        <h3 class="text-primary">Manga</h3>
+        <img src="https://i.pinimg.com/736x/f6/ad/7c/f6ad7c004fe049735c9e4c9a09d0ca3a--sketches-manga.jpg" alt="Manga"
+          class="img-fluid column-image img-radius">
+      </div>
+      <div class="col ">
+        <h3 class="text-primary">Películas/Series</h3>
+        <img
+          src="https://th.bing.com/th/id/R.feab7bd6bb91f85ae98460bcd6ec4d5b?rik=DM2EaLYd3uGswA&riu=http%3a%2f%2fwww.sfondilandia.it%2f1600%2fEvangelion00.jpg&ehk=HL5vE9zf5dK3ZLeUlrfEVuJi9bjPcaX3NNFgBNNezRM%3d&risl=&pid=ImgRaw&r=0"
+          alt="Películas/Series" class="img-fluid column-image img-radius">
+      </div>
+      <div class="col ">
+        <h3 class="text-primary">Juegos</h3>
+        <img src="https://th.bing.com/th/id/R.761d7edde9159cb9864ee29bfd50887e?rik=7kkzNau9etSYdg&pid=ImgRaw&r=0"
+          alt="Juegos" class="img-fluid column-image img-radius">
+      </div>
+      <div class="col ">
+        <h3 class="text-primary">Recomendaciones</h3>
+        <img src="https://th.bing.com/th/id/OIP.mRBLVVGb5TGP1-gDJ8e1ggHaF7?pid=ImgDet&rs=1" alt="Recomendaciones"
+          class="img-fluid column-image img-radius">
+      </div>
     </div>
   </div>
-</div>  
 
 
 
@@ -89,12 +111,16 @@
       color: white;
       padding-top: 4px
     }
+
+    .table-personal{
+      color: white
+    }
 </style>
 
 <div class="subtitle-radius">
   <h2 class="letter-subtitle fancy-title">PELICULAS Y SERIES</h2>
 </div>
-<table class="table caption-top">
+<table class="table caption-top table-personal">
   <thead>
     <tr>
     <th scope="col">NOMBRE</th>

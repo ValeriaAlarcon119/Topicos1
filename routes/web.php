@@ -123,11 +123,11 @@ Route::get('/recomendaciones', function(){
     });
 
 Route::get('/infomanga', function(){
-    return view('infoviews/infomanga');
+    return view('infoviews.infomanga');
     });
 
 Route::get('/infopeliseries', function(){
-    return view('infoviews/infopeliseries');
+    return view('infoviews.infopeliseries');
     });
 
 Route::get('/infojuegos', function(){

@@ -19,15 +19,18 @@
       width: 500px;
       height: 55px;
       margin-left: 420px;
-      margin-top: 10px;
+      margin-top: 30px;
       margin-bottom: 10px
     }
     .letter-title{
       color: white;
     }
+    .body-personal{
+      background-color: rgb(18,19,34,0.9)
+    }
 </style>
 </head>
-<body>
+<body class="body-personal">
 
 <div class="title-radius">
   <h1 class="fancy-title letter-title">Página de Anime</h1>
@@ -40,25 +43,37 @@
     height: 200px; 
     object-fit: cover; 
   }
+
+  .img-radius{
+    border: solid;
+    border-color: white;
+    border-radius: 30px
+  }
+
+  .personal-container{
+    margin-top: 30px;
+    margin-bottom: 50px
+  }
+  
 </style>
 
-<div class="container text-center">
+<div class="container text-center personal-container">
   <div class="row align-items-start">
-    <div class="col border">
+    <div class="col ">
       <h3 class="text-primary">Manga</h3>
-      <img src="https://i.pinimg.com/736x/f6/ad/7c/f6ad7c004fe049735c9e4c9a09d0ca3a--sketches-manga.jpg" alt="Manga" class="img-fluid column-image">
+      <img src="https://i.pinimg.com/736x/f6/ad/7c/f6ad7c004fe049735c9e4c9a09d0ca3a--sketches-manga.jpg" alt="Manga" class="img-fluid column-image img-radius">
     </div>
-    <div class="col border">
+    <div class="col ">
       <h3 class="text-primary">Películas/Series</h3>
-      <img src="https://th.bing.com/th/id/R.feab7bd6bb91f85ae98460bcd6ec4d5b?rik=DM2EaLYd3uGswA&riu=http%3a%2f%2fwww.sfondilandia.it%2f1600%2fEvangelion00.jpg&ehk=HL5vE9zf5dK3ZLeUlrfEVuJi9bjPcaX3NNFgBNNezRM%3d&risl=&pid=ImgRaw&r=0" alt="Películas/Series" class="img-fluid column-image">
+      <img src="https://th.bing.com/th/id/R.feab7bd6bb91f85ae98460bcd6ec4d5b?rik=DM2EaLYd3uGswA&riu=http%3a%2f%2fwww.sfondilandia.it%2f1600%2fEvangelion00.jpg&ehk=HL5vE9zf5dK3ZLeUlrfEVuJi9bjPcaX3NNFgBNNezRM%3d&risl=&pid=ImgRaw&r=0" alt="Películas/Series" class="img-fluid column-image img-radius">
     </div>
-    <div class="col border">
+    <div class="col ">
       <h3 class="text-primary">Juegos</h3>
-      <img src="https://th.bing.com/th/id/R.761d7edde9159cb9864ee29bfd50887e?rik=7kkzNau9etSYdg&pid=ImgRaw&r=0" alt="Juegos" class="img-fluid column-image">
+      <img src="https://th.bing.com/th/id/R.761d7edde9159cb9864ee29bfd50887e?rik=7kkzNau9etSYdg&pid=ImgRaw&r=0" alt="Juegos" class="img-fluid column-image img-radius">
     </div>
-    <div class="col border">
+    <div class="col ">
       <h3 class="text-primary">Recomendaciones</h3>
-      <img src="https://th.bing.com/th/id/OIP.mRBLVVGb5TGP1-gDJ8e1ggHaF7?pid=ImgDet&rs=1" alt="Recomendaciones" class="img-fluid column-image">
+      <img src="https://th.bing.com/th/id/OIP.mRBLVVGb5TGP1-gDJ8e1ggHaF7?pid=ImgDet&rs=1" alt="Recomendaciones" class="img-fluid column-image img-radius">
     </div>
   </div>
 </div>
@@ -82,18 +97,33 @@
       height: 50px;
       margin-left: 470px;
       margin-top: 10px;
-      margin-bottom: 10px
+      margin-bottom: 20px
     }
     .letter-subtitle{
       color: white;
       padding-top: 4px
     }
+    .line-personal{
+      color: white;
+      
+      margin-bottom: 40px;
+      border: 2px dashed
+    }
+
+    .table-personal{
+      width: 600px;
+      margin-left: 27%
+    }
 </style>
+
+<hr class="line-personal"/>
 
 <div class="subtitle-radius">
   <h2 class="fancy-title letter-subtitle">MANGA</h2>
 </div>
-<table class="table caption-top table-info">
+
+<div class="table-personal">
+<table class="table caption-top table-secondary border border-primary">
   <thead>
     <tr>
     
@@ -123,6 +153,7 @@
     </tr>
   </tbody>
 </table>
+</div>
 
 
 
