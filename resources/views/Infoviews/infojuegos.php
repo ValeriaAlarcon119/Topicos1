@@ -51,11 +51,7 @@
 
 <div class="row">
   <div class="col">
-    <input type="text" class="form-control" placeholder="En esta sesion se encuentran los manga que estan a la venta su precio y disponibilidad" aria-label="En esta sesion se encuentran los manga que estan a la venta su precio y disponibilidad">
+    <input type="text" class="form-control" placeholder="En esta sesion se encuentra informacion sobre juegos de anime" aria-label="En esta sesion se encuentran los manga que estan a la venta su precio y disponibilidad">
   </div>
  
 </div>
-
-
-
-</html>

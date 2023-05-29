@@ -121,3 +121,19 @@ Route::get('/juegos', function(){
 Route::get('/recomendaciones', function(){
     return view('recomendaciones');
     });
+
+Route::get('/infomanga', function(){
+    return view('infoviews/infomanga');
+    });
+
+Route::get('/infopeliseries', function(){
+    return view('infoviews/infopeliseries');
+    });
+
+Route::get('/infojuegos', function(){
+    return view('infoviews/infojuegos');
+    });
+
+Route::get('/inforecomendaciones', function(){
+    return view('infoviews/inforecomendaciones');
+    });
